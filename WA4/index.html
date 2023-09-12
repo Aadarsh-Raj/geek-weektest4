@@ -16,10 +16,10 @@
         </div>
         <div class="nav-right">
             <span class="nav-list"><a href="#">Home</a></span>
-            <span class="nav-list"><a href="">Services</a></span>
-            <span class="nav-list"><a href="">Portfolio</a></span>
-            <span class="nav-list"><a href="">About Us</a></span>
-            <span class="nav-list"><a href="">Contact Us</a></span>
+            <span class="nav-list"><a href="#services">Services</a></span>
+            <span class="nav-list"><a href="#">Portfolio</a></span>
+            <span class="nav-list"><a href="#about">About Us</a></span>
+            <span class="nav-list"><a href="#contact">Contact Us</a></span>
         </div>
     </nav>
 
@@ -27,26 +27,28 @@
     <main>
 
         <!-- first-container -->
-        <div class="main-container first-box">
+        <section class="main-container first-box" id="home">
             <div class="inner-first-box">
                 <h1 class="first-box-heading first-box-content-margin">Camping Gear and Essentials</h1>
                 <p class="first-box-para first-box-content-margin">Discover top-quality camping gear for unforgettable
                     outdoor adventures.
                     Gear up and make lasting memories.</p>
-                <button class="btn first-box-content-margin">OUR SERVICES</button>
+                <a href="#services">
+                    <button class="btn first-box-content-margin">OUR SERVICES</button>
+                </a>
             </div>
-        </div>
+        </section>
 
         <!-- second-container -->
-        <div class="main-container second-container">
+        <section class="main-container second-container" id="services">
+
+            <!-- second-container-heading -->
+            <div class="service para-heading">
+                <h2>Our Services</h2>
+                <p>Explore our wide range of camping gear services.</p>
+            </div>
+
             <div class="card-section">
-
-                <!-- second-container-heading -->
-                <div class="service para-heading">
-                    <h2>Our Services</h2>
-                    <p>Explore our wide range of camping gear services.</p>
-                </div>
-
                 <!-- card-box -->
                 <div class="service service-card">
                     <div class="card-box">
@@ -111,11 +113,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!-- third-container -->
-        <div class="main-container second-container third-container">
+        <section class="main-container second-container third-container" id="about">
 
 
             <!-- third-container-heading -->
@@ -157,12 +159,12 @@
                 <li>Sarah Brown - Operations Manager</li>
 
             </div>
-        </div>
+        </section>
     </main>
 
 
 
-    <footer class="foot ">
+    <footer class="foot" id="contact">
         <div class="foot-outer">
             <div class="para-heading">
                 <h2>Contact Us</h2>
